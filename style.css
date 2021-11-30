@@ -1,0 +1,110 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+.container {
+  height: 70vh;
+  width: 40vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+.img-container {
+  height: 46%;
+  width: 81%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.img-container img {
+  border-radius: 5px;
+}
+.text-container {
+  height: 100%;
+  width: 82%;
+}
+
+h4 {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-size: 14px;
+}
+img {
+  height: 100%;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+}
+.etherium {
+  display: flex;
+  height: 1rem;
+  color: hsl(178, 100%, 50%);
+}
+.clock {
+  display: flex;
+  height: 1rem;
+  color: hsl(215, 51%, 70%);
+}
+.last {
+  display: flex;
+  justify-content: flex-start;
+  height: 72px;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+}
+.last img {
+  height: 100%;
+  width: 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.subtext {
+  margin: 0px 3.5px;
+  font-size: 14px;
+}
+hr {
+  background-color: hsl(215, 32%, 27%);
+  transform: translateY(10px);
+}
+.avatar-text {
+  margin: 0px 5px;
+  font-size: 14px;
+}
+
+@media screen and (max-width:400px) {
+
+    h4{
+        font-size: 13px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .subtext{
+        font-size: 10px;
+    }
+    .avatar-text{
+        font-size: 10px;
+    }
+    .img-container {
+        height: 46%;
+        width: 81%;
+        margin-top: 16px;
+        margin-bottom: 16px;
+      }
+    .last{
+        height: 56px;
+    }
+}
